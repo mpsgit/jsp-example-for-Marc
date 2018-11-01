@@ -1,0 +1,9 @@
+<%
+    java.util.ArrayList<Integer> x = (java.util.ArrayList<Integer>)request.getAttribute("x");
+
+    for (Integer y: x) {
+%>
+    #<%=y%>
+<%
+    }
+%>
